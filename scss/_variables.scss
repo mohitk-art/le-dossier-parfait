@@ -2,9 +2,13 @@
 
 $themefont: 'Exo 2', sans-serif;
 $themefont2: 'Lato', sans-serif;
-$primaryColor: #21548f;
-$secondaryColor: #383d45;
+
+$lblueColor: #21548f;
 $blueColor: #294075;
 $skyColor: #85bcd8;
+$dgrayColor: #383d45;
 $grayColor: #d6d8d8;
-$headerheight: 66px;
+$headerheight: 75px;
+
+$primaryColor: $dgrayColor;
+$secondaryColor: $lblueColor;

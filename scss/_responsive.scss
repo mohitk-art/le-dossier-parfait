@@ -1,0 +1,13 @@
+@import './mixins';
+
+@media (max-width: 767px) {
+  .h3,
+  h3 {
+    font-size: 1.4rem !important;
+  }
+
+  .homebanner {
+    min-height: 17rem;
+    position: relative;
+  }
+}

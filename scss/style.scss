@@ -71,8 +71,8 @@ h4 {
   }
 }
 
-.mt--200 {
-  margin-top: -200px;
+.mt--100 {
+  margin-top: -100px;
 }
 
 .dividerbr {
@@ -101,3 +101,7 @@ h4 {
 .testimonials-author {
   font-size: 16px;
 }
+
+/* Responsive Start */
+@import './responsive';
+/* Responsive end */

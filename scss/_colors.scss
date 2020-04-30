@@ -32,8 +32,26 @@
   border-color: $primaryColor !important;
 }
 
+// secondary color
+.text-secondary {
+  color: $secondaryColor !important;
+}
+
+.btn-secondary,
+.bg-secondary {
+  background-color: $secondaryColor !important;
+}
+
+.btn-secondary,
+.border-secondary {
+  border-color: $secondaryColor !important;
+}
+
+//
+//
 // btn color
 .btn-gray,
-.btn-primary {
+.btn-primary,
+.btn-secondary {
   color: #fff !important;
 }

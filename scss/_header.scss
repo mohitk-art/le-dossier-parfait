@@ -27,3 +27,16 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .mainheader {
+    .nav-item {
+      .nav-link,
+      .btn,
+      .dropdown-item {
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+}
