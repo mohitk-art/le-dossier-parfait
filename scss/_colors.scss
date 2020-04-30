@@ -1,0 +1,39 @@
+@import './mixins';
+
+// color
+.text-gray {
+  color: $grayColor !important;
+}
+
+// background
+.btn-gray,
+.bg-gray {
+  background-color: $grayColor !important;
+}
+
+// border
+.btn-gray,
+.border-gray {
+  border-color: $grayColor !important;
+}
+
+// primary color
+.text-primary {
+  color: $primaryColor !important;
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: $primaryColor !important;
+}
+
+.btn-primary,
+.border-primary {
+  border-color: $primaryColor !important;
+}
+
+// btn color
+.btn-gray,
+.btn-primary {
+  color: #fff !important;
+}

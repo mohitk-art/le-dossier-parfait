@@ -1,0 +1,29 @@
+@import './mixins';
+
+.mainheader {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 9999;
+  img.logo-img {
+    max-width: 100px;
+  }
+  .nav-item {
+    padding: 5px;
+    .nav-link,
+    .btn {
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+    .btn {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .dropdown-item {
+      &:hover {
+        background-color: $primaryColor;
+        color: #fff;
+      }
+    }
+  }
+}
