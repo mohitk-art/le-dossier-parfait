@@ -52,55 +52,66 @@ b.font2 {
 }
 
 /* colors start */
-.text-gray {
+.text-gray,
+.btn-outline-secondary {
   color: #d6d8d8 !important;
 }
 
 .btn-gray,
-.bg-gray {
+.bg-gray,
+.btn-outline-gray:hover {
   background-color: #d6d8d8 !important;
 }
 
 .btn-gray,
-.border-gray {
+.border-gray,
+.btn-outline-gray {
   border-color: #d6d8d8 !important;
 }
 
-.text-primary {
+.text-primary,
+.btn-outline-primary {
   color: #294075 !important;
 }
 
 .btn-primary,
-.bg-primary {
+.bg-primary,
+.btn-outline-primary:hover {
   background-color: #294075 !important;
 }
 
 .btn-primary,
-.border-primary {
+.border-primary,
+.btn-outline-primary {
   border-color: #294075 !important;
 }
 
-.text-secondary {
+.text-secondary,
+.btn-outline-secondary {
   color: #85bcd8 !important;
 }
 
 .btn-secondary,
-.bg-secondary {
+.bg-secondary,
+.btn-outline-secondary:hover {
   background-color: #85bcd8 !important;
 }
 
 .btn-secondary,
-.border-secondary {
+.border-secondary,
+.btn-outline-secondary {
   border-color: #85bcd8 !important;
 }
 
 .btn-gray,
 .btn-primary,
-.btn-secondary {
+.btn-secondary,
+.btn-outline-secondary {
   color: #fff !important;
 }
 
 /* colors end */
+
 /* header start */
 .mainheader {
   position: fixed;

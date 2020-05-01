@@ -1,49 +1,58 @@
 @import './mixins';
 
 // color
-.text-gray {
+.text-gray,
+.btn-outline-secondary {
   color: $grayColor !important;
 }
 
 // background
 .btn-gray,
-.bg-gray {
+.bg-gray,
+.btn-outline-gray:hover {
   background-color: $grayColor !important;
 }
 
 // border
 .btn-gray,
-.border-gray {
+.border-gray,
+.btn-outline-gray {
   border-color: $grayColor !important;
 }
 
 // primary color
-.text-primary {
+.text-primary,
+.btn-outline-primary {
   color: $primaryColor !important;
 }
 
 .btn-primary,
-.bg-primary {
+.bg-primary,
+.btn-outline-primary:hover {
   background-color: $primaryColor !important;
 }
 
 .btn-primary,
-.border-primary {
+.border-primary,
+.btn-outline-primary {
   border-color: $primaryColor !important;
 }
 
 // secondary color
-.text-secondary {
+.text-secondary,
+.btn-outline-secondary {
   color: $secondaryColor !important;
 }
 
 .btn-secondary,
-.bg-secondary {
+.bg-secondary,
+.btn-outline-secondary:hover {
   background-color: $secondaryColor !important;
 }
 
 .btn-secondary,
-.border-secondary {
+.border-secondary,
+.btn-outline-secondary {
   border-color: $secondaryColor !important;
 }
 
