@@ -190,6 +190,26 @@ img.footerlogo {
   font-size: 16px;
 }
 
+.cstm-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+}
+.cstm-card::before {
+  content: '';
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #383d45;
+  position: absolute;
+  top: -93px;
+  opacity: 0.4;
+  right: -47px;
+}
+.cstm-card > * {
+  position: relative;
+}
+
 /* Responsive Start */
 @media (max-width: 767px) {
   .h3,
