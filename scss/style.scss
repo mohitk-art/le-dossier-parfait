@@ -102,6 +102,26 @@ h4 {
   font-size: 16px;
 }
 
+.cstm-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  &::before {
+    content: '';
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: $primaryColor;
+    position: absolute;
+    top: -93px;
+    opacity: 0.4;
+    right: -47px;
+  }
+  > * {
+    position: relative;
+  }
+}
+
 /* Responsive Start */
 @import './responsive';
 /* Responsive end */
