@@ -144,11 +144,47 @@ img.footerlogo {
 }
 
 /* Footer end */
+/* Animation start*/
+.heartBeat {
+  animation-name: initial;
+}
+.heartBeat:hover {
+  animation-name: heartBeat;
+}
+
+.pulse {
+  animation-name: initial;
+}
+.pulse:hover {
+  animation-name: pulse;
+}
+
+.bounceInRight {
+  animation-name: initial;
+}
+.bounceInRight:hover {
+  animation-name: bounceInRight;
+}
+
+.fadeInDown {
+  animation-name: initial;
+}
+.fadeInDown:hover {
+  animation-name: fadeInDown;
+}
+
+.jello {
+  animation-name: initial;
+}
+.jello:hover {
+  animation-name: jello;
+}
+/* Animation End */
 .homebanner {
   min-height: 35rem;
   position: relative;
 }
-.homebanner::after {
+.homebanner::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -156,6 +192,15 @@ img.footerlogo {
   width: 100%;
   height: 60%;
   background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0));
+}
+.homebanner > .btn {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 50px;
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 35px;
+  padding-right: 30px;
 }
 
 .mt--100 {
