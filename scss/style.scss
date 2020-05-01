@@ -89,6 +89,7 @@ h2,
 .personimg {
   height: 100px;
   width: 100px;
+  min-width: 100px;
   object-fit: cover;
   border-radius: 50%;
 }
